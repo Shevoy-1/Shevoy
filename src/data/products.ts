@@ -139,8 +139,8 @@ export const products: Product[] = [
   {
     id: 16,
     name: '3D crystal deer lamp',
-    price: 159,
-    category: 'light',
+    price: 219,
+    category: 'decorative',
     image: 'https://i.ibb.co/nsvxSSSf/file-00000000e5508211915aab1f3480f2f3.png',
     images: [                            
     'https://i.ibb.co/ch9BG3V4/file-00000000a7288211b60413059269a287.png'
