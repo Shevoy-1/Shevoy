@@ -135,7 +135,18 @@ export const products: Product[] = [
     'https://i.ibb.co/Qvrmyv59/file-0000000074dc82089ec40afc68ee5e38.png'
   ],
     description: 'Trendy deep purple saree with hotfix stonework and elegant cutwork leaf border. Lightweight georgette fabric with an all-over shimmer finish — great for parties and daily festive wear.'
-  }
+  },
+  {
+    id: 16,
+    name: '3D crystal deer lamp',
+    price: 159,
+    category: 'light',
+    image: 'https://i.ibb.co/nsvxSSSf/file-00000000e5508211915aab1f3480f2f3.png',
+    images: [                            
+    'https://i.ibb.co/ch9BG3V4/file-00000000a7288211b60413059269a287.png'
+  ],
+    description: 'A magical 3D crystal deer lamp with a warm golden glow and elegant wooden base. Perfect for bedrooms, desks, home décor, and gifting. USB powered and easy to use.'
+}
 ];
 
 export const categories = Array.from(new Set(products.map((p) => p.category)));
